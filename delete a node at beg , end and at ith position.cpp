@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// creating linked list , insert a node at beginning , end and at ith position.
+
 
 int main() {
 	
@@ -121,7 +121,7 @@ while (i < pos - 1) {
 nextNode = temp->next;
 temp->next = nextNode->next;
 
-free(nextNode); // nextNode pointer must be free completely
+free(nextNode); 
 
 temp = head;
 while (temp != 0) {
@@ -136,4 +136,7 @@ while (temp != 0) {
 	
 
 }
+printf("Finally it is completed");
 }
+
+
